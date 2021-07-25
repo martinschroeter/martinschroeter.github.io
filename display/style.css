@@ -1,26 +1,35 @@
 body {
 	background-color: #000;
 	color: #ff8c00;
+	margin: 0px;
+	padding: 0px;
 }
 
-main {
-	position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	width:  95%;
-	height:  95%;
-	text-align: center;
-}
 
 header {
-	border-bottom: 1px solid #000;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
+	border: 1px solid #fff;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 690px;
+	height: 1060px;
+}
+
+
+main {
+	border: 1px solid #fff;
+	position: absolute;
+	left: 710px;
+	top: 10px;
+	width: 1720px;
+	height: 780px;
 }
 
 footer {
-	border-top: 1px solid #000;
-	margin-top: 10px;
-	padding-top:  10px;
+	border: 1px solid #fff;
+	position: absolute;
+	left: 710px;
+	top: 800px;
+	width: 1720px;
+	height: 400px;
 }
